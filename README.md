@@ -71,18 +71,20 @@ Crypto_Price_Forecast/
 
 ---
 
-📈 Results & Insights
-ARIMA performs well for short-term forecasting
-LSTM captures long-term trends more effectively
-LSTM generally achieves lower error metrics compared to ARIMA
+## 📈 Results & Insights:
+
+-ARIMA performs well for short-term forecasting
+-LSTM captures long-term trends more effectively
+-LSTM generally achieves lower error metrics compared to ARIMA
 
 ---
 
-📌 Future Improvements
-Hyperparameter tuning
-Multivariate forecasting
-Add confidence intervals
-Use real-time price updates
+## 📌 Future Improvements:
+
+-Hyperparameter tuning
+-Multivariate forecasting
+-Add confidence intervals
+-Use real-time price updates
 
 ---
 
