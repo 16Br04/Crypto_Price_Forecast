@@ -55,3 +55,39 @@ The project includes data preprocessing, exploratory data analysis, model traini
 ---
 
 ## 📁 Project Structure
+Crypto_Price_Forecast/
+│
+├── models/
+│   ├── arima_model.pkl        # Saved ARIMA model
+│   └── lstm_model.h5          # Trained LSTM model
+│
+├── app.py                     # Streamlit application for forecasting & visualization
+├── main.ipynb                 # Data analysis, preprocessing, modeling & evaluation
+├── processed_crypto_data.csv  # Cleaned & preprocessed dataset
+├── model_comparison.csv       # Model performance metrics (RMSE, MAE)
+├── requirements.txt           # Project dependencies
+├── .gitignore                 # Files & folders ignored by Git
+└── README.md                  # Project documentation
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+📈 Results & Insights
+ARIMA performs well for short-term forecasting
+LSTM captures long-term trends more effectively
+LSTM generally achieves lower error metrics compared to ARIMA
+
+---
+
+📌 Future Improvements
+Hyperparameter tuning
+Multivariate forecasting
+Add confidence intervals
+Use real-time price updates
