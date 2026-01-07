@@ -71,14 +71,6 @@ Crypto_Price_Forecast/
 
 ---
 
-## 🚀 How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
----
-
 📈 Results & Insights
 ARIMA performs well for short-term forecasting
 LSTM captures long-term trends more effectively
@@ -91,3 +83,11 @@ Hyperparameter tuning
 Multivariate forecasting
 Add confidence intervals
 Use real-time price updates
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
